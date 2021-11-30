@@ -27,7 +27,7 @@ public class ScoreScript : MonoBehaviour
             Destroy(Coin.gameObject);
             MyscoreText.text = "Score: " + ScoreNum;
         }
-        if (ScoreNum == 36)
+        if (ScoreNum == 35)
         {
             SceneManager.LoadScene("End");
             Debug.Log("OpenDoor");
